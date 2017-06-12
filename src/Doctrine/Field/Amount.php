@@ -15,7 +15,7 @@ trait Amount
     /**
      * 交易事件的发生额
      *
-     * @Column(type="decimal", precision=11, scale=2, nullable=false)
+     * @Column(type="decimal", precision=13, scale=2, nullable=false)
      */
     protected $amount;
 
